@@ -1,0 +1,49 @@
+“Real Competition” yaitu terkait persiapan keterampilan atau skill siswa/mahasiswa Indonesia terkait
+menghadapi dunia kerja, misalkan ada data untuk pelatihan apa saja yang diikuti mahasiswa, 
+skill apa saja yang dikuasai, track record melakukan kecurangan akademis, portofolio di internet 
+dari tugas-tugas, mengikuti lomba, dan lain-lain.
+
+tskill nim, nama, idskill, skill, deskripsi
+270511 Mitski S001 MachineLearning PrediksiData
+270512 Nadin S002 BigData MengolahDatabase
+270513 Adele S003 FrontEnd TampilanInteraktif
+270514 Tulus S004 KecerdasanBuatan MesinCerdas
+270515 Baskara S005 Cybersecurity PertahananSiber
+270516 Kunto S006 FullStack WebsiteDanServer
+270522 Raisa S007 GameDeveloper GameInteraktif
+
+tpelatihan nim,idpelatihan, pelatihan
+270511 P001 Dicoding
+270512 P002 SkillAcademy
+270513 P003 Hacktiv8
+270514 P004 Udemy
+270515 P005 IBM
+270516 P006 Coursera
+270512 P007 MicrosoftLearn
+
+tlomba nim, idlomba, lomba, prestasi
+270511 L001 Dataquest4.0 Peserta
+270512 L002 SatriaData Juara1
+270513 L003 ITFestWebDev Juara3
+270514 L004 Hackanton Peserta
+270515 L005 Gemastik Juara2
+270516 L006 ITFestWebDev Juara3
+270517 L007 NCGC Peserta
+
+TEST CASE INPUT
+tskill 270518 Lyodra S0012 MachineLearning MembuatAlatPendeteksiWajah
+tskill 270512 Dere S002 BigData MenyukaiData
+tskill 270510 Dere S002 BigData MenyukaiData
+
+tlomba 270512 L0013 Hackanton.0 Peserta
+tpelatihan 270517 P0010 Udemy
+
+TEST CASE SHOW
+
+TEST CASE DELETE
+
+TEST CASE UPDATE
+270512 Nadin S002 BigData,MachineLearning MengolahDatabase
+270514 L004 Hackanton Juara1
+
+gcc *.c -o tmd.exe

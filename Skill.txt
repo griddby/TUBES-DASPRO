@@ -1,0 +1,9 @@
+270511 Idgitaf S0019 BackEnd Database
+270512 Nadin S002 BigData,MachineLearning MengolahDatabase
+270513 Adele S003 FrontEnSHd TampilanInteraktif
+270514 Tulus S004 KecerdasanBuatan MesinCerdas
+270515 Baskara S005 Cybersecurity PertahananSiber
+270517 Raisa S007 GameDeveloper GameInteraktif
+270518 Lyodra S0012 MachineLearning MembuatAlatPendeteksiWajah
+270519 Priadi S0012 MachineLearning MembuatAlatPendeteksiWajah
+#### #### #### #### ####
