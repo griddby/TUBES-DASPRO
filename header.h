@@ -1,12 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-/*
-    Saya Ingrid Gabryella Nainggolan  dengan NIM 2506442  sebagai manusia yang berTuhan, saya mengerjakan evaluasi Tugas Masa Depan 
-    dalam mata kuliah Dasar-dasar Pemrograman untuk keberkahanNya maka saya 
-    tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
-*/
-
 extern int idx;//index
 extern int wlen;//panjang kata
 extern char cw[100];//current word
