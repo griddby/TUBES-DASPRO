@@ -39,6 +39,9 @@ tlomba 270512 L0013 Hackanton.0 Peserta
 tpelatihan 270517 P0010 Udemy
 
 TEST CASE SHOW
+tlomba show
+tpelatihan show
+tpelatihan show
 
 TEST CASE DELETE
 

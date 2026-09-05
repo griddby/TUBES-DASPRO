@@ -15,7 +15,7 @@ int main (){
             return 0;
         }
 
-        int valid = 1;//flag prgram dijalankan atau tidak
+        int valid = 1;//flag program dijalankan atau tidak
         if (strlen (perintah) == 0){
             printf ("TIDAK ADA QUERY, MASUKKAN PERINTAH\n");//kalau querynya kosong
             valid  = 0;

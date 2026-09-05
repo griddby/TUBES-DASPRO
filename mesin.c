@@ -62,12 +62,12 @@ int getlen (){
     return wlen;
 }
 
-//sebagai pesan saat dbms muali dijalankan
+//sebagai pesan saat dbms mulai dijalankan
 void pesan (){
     printf("=================================================\n");
-    printf("||  ||     ||||||    |||||||    ||||||||    |||||||\n");
+    printf("||  ||     ||||||    |||||||      ||||||    |||||||\n");
     printf("||  ||   ||      ||  ||     ||  ||      ||  ||     \n");
-    printf("||||||   ||      ||  |||||||    ||||||||    |||||||\n");
+    printf("||||||   ||      ||  |||||||    ||||||||||   |||||||\n");
     printf("||  ||   ||      ||  ||   ||    ||      ||       ||\n");
     printf("||  ||     ||||||    ||    ||   ||      ||  |||||||\n");
     printf("=================================================\n");
@@ -81,7 +81,7 @@ void pesan (){
     printf ("DELETE :MENGHAPUS DATA YANG SUDAH ADA\n");
     printf ("SHOW   :MENAMPILKAN DATA\n");
     printf ("\n");
-    printf ("SILAHKAN MEMASUKKAN KALIMAT -besok ayao kita pergi makan- UNTUK KELUAR DARI PROGRAM\n");
+    printf ("SILAHKAN MEMASUKKAN KALIMAT -besok ayo kita pergi makan- UNTUK KELUAR DARI PROGRAM\n");
     printf ("----------------------------------------------------------------------\n");
     printf ("---------------------------SELAMAT MENCOBA----------------------------\n");
     printf ("----------------------------------------------------------------------\n");
@@ -203,7 +203,7 @@ void readlomba (int *n, tlomba sumber[], char namafile[]){
 
 //untuk menghapus data 
 void deleteskill (){
-    tskill s [100];//   menampung semua isi file skill
+    tskill s [100];//menampung semua isi file skill
     int ns = 0;//sebagai banyak baris data pada tabel skill
 
     //membaca file skill
@@ -608,19 +608,19 @@ void showskill (){
     //membandingkan panjang kata antara judul dengan isi pada masing masing variabel
     for (int i = 0; i < ns; i++){
         if (strlen(s[i].nim) > len [0]){
-            len [0] = strlen (s[i].nim);//membadinngkan panjang kata nim dengan data yang ada pada array nim
+            len [0] = strlen (s[i].nim);//membadingkan panjang kata nim dengan data yang ada pada array nim
         }
         if (strlen(s[i].nama) > len [1]){
-            len [1] = strlen (s[i].nama);//membadinngkan panjang kata nama dengan data yang ada pada array nama
+            len [1] = strlen (s[i].nama);//membadingkan panjang kata nama dengan data yang ada pada array nama
         }
         if (strlen (s[i].kodeS) > len [2]){
-            len [2] = strlen (s[i].kodeS);//membadinngkan panjang kata kode skill dengan data yang ada pada array kode skill
+            len [2] = strlen (s[i].kodeS);//membadingkan panjang kata kode skill dengan data yang ada pada array kode skill
         }
         if (strlen (s[i].skill) > len [3]){
-            len [3] = strlen (s[i].skill);//membadinngkan panjang kata skill dengan data yang ada pada array skill
+            len [3] = strlen (s[i].skill);//membadingkan panjang kata skill dengan data yang ada pada array skill
         }
         if (strlen (s[i].deskripsi) > len [4]){
-            len [4] = strlen (s[i].deskripsi);//membadinngkan panjang kata deskripsi dengan data yang ada pada array deskripsi
+            len [4] = strlen (s[i].deskripsi);//membadingkan panjang kata deskripsi dengan data yang ada pada array deskripsi
         }
     }
 
@@ -712,7 +712,7 @@ void showpelatihan (){
         return;
     }
 
-    //sebgai judul untuk membuat tabel
+    //sebagai judul untuk membuat tabel
     char *judul [] = {"NIM", "KODE PELATIHAN", "PELATIHAN"};
     int len [3];
 
@@ -724,13 +724,13 @@ void showpelatihan (){
     //membandingkan panjang kata antara judul dengan isi pada masing masing variabel
     for (int i = 0; i < np; i++){
         if (strlen(p[i].nim) > len [0]){
-            len [0] = strlen (p[i].nim);//membadinngkan panjang kata nim dengan data yang ada pada array nim
+            len [0] = strlen (p[i].nim);//membadingkan panjang kata nim dengan data yang ada pada array nim
         }
         if (strlen (p[i].kodeP) > len [1]){
-            len [1] = strlen (p[i].kodeP);//membadinngkan panjang kata kode pelatihan dengan data yang ada pada array kode pelatihan
+            len [1] = strlen (p[i].kodeP);//membadingkan panjang kata kode pelatihan dengan data yang ada pada array kode pelatihan
         }
         if (strlen (p[i].pelatihan) > len [2]){
-            len [2] = strlen (p[i].pelatihan);//membadinngkan panjang kata pelatihan dengan data yang ada pada array pelatihan
+            len [2] = strlen (p[i].pelatihan);//membadingkan panjang kata pelatihan dengan data yang ada pada array pelatihan
         }
     }
 
@@ -744,7 +744,7 @@ void showpelatihan (){
     }
     printf ("\n");
 
-    //menceteka garis untuk judul yang dipisahkan dengan garis |
+    //mencetek garis untuk judul yang dipisahkan dengan garis |
     printf ("|");
     for (int i = 0; i < 3; i++){
         printf (" %s", judul [i]);
@@ -765,7 +765,7 @@ void showpelatihan (){
     }
     printf ("\n");
 
-     //mencetak garis pemisah antara data sebelahnya
+    //mencetak garis pemisah antara data sebelahnya
     for (int i = 0; i < np; i++){
         printf ("| ");
         printf ("%s", p[i].nim);
@@ -822,16 +822,16 @@ void showlomba (){
     //membandingkan panjang kata antara judul dengan isi pada masing masing variabel
     for (int i = 0; i < nl; i++){
         if (strlen(l[i].nim) > len [0]){
-            len [0] = strlen (l[i].nim);//membadinngkan panjang kata nim dengan data yang ada pada array nim
+            len [0] = strlen (l[i].nim);//membadingkan panjang kata nim dengan data yang ada pada array nim
         }
         if (strlen(l[i].kodeL) > len [1]){
-            len [1] = strlen (l[i].kodeL);//membadinngkan panjang kata kode latihan dengan data yang ada pada array kode latihan
+            len [1] = strlen (l[i].kodeL);//membadingkan panjang kata kode latihan dengan data yang ada pada array kode latihan
         }
         if (strlen (l[i].lomba) > len [2]){
-            len [2] = strlen (l[i].lomba);//membadinngkan panjang kata lomba dengan data yang ada pada array lomba
+            len [2] = strlen (l[i].lomba);//membadingkan panjang kata lomba dengan data yang ada pada array lomba
         }
         if (strlen (l[i].prestasi) > len [3]){
-            len [3] = strlen (l[i].prestasi);//membadinngkan panjang kata prestasi dengan data yang ada pada array presatsi
+            len [3] = strlen (l[i].prestasi);//membadingkan panjang kata prestasi dengan data yang ada pada array presatsi
         }
     }
 
